@@ -1,0 +1,1 @@
+enum KernelType {NONE, GAUSSIAN, UNIFORM, };
