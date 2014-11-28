@@ -9,8 +9,8 @@ void ofApp::setup()
 	// enable depth->video image calibration
 	kinect.setRegistration(true);
 
-	//kinect.init(false, false); // disable video image (faster fps)
-	kinect.init();
+	kinect.init(false, false); // disable video image (faster fps)
+	//kinect.init();
 
 	kinect.open(true);
 
